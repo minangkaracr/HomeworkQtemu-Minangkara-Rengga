@@ -9,11 +9,11 @@ class NavbarComponents extends React.Component {
         return (
             <Navbar bg="dark" data-bs-theme="dark">
                 <Container>
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                <Navbar.Brand href="#home"><strong>QTemu</strong></Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
+                    <Nav.Link href="#home">Create Meetup</Nav.Link>
+                    <Nav.Link href="#features">Explore</Nav.Link>
+                    <Nav.Link href="#pricing">Login</Nav.Link>
                 </Nav>
                 </Container>
             </Navbar>
