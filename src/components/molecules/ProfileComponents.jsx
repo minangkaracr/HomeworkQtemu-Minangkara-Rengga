@@ -10,17 +10,17 @@ class ProfileComponent extends React.Component {
                 <div className='row py-4'>
                     <div className='col-2 align-content-center'>
                         <img 
-                            src="https://i.pinimg.com/originals/21/69/41/2169412c6b7176df0ca3dddc1edae49a.jpg" 
+                            src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" 
                             alt="foto"
                             className='w-100'/>
                     </div>
                     <div className='col'>
                         <div className='row'>
-                            <h2>Hacktiv8 Meet Up</h2>
+                            <h2><strong>Google Gamers Meet Up</strong></h2>
                         </div>
                         <div className='row'>
                             <div className='col-2 d-flex align-contents-center'>
-                                <h4 className='mb-0 py-1'>Location</h4>
+                                <h4 className='mb-0 py-1'><strong>Location</strong></h4>
                             </div>
                             <div className='col'>
                                 <h4 className='mb-0 py-1'>Jakarta, Indonesia</h4>
@@ -28,24 +28,24 @@ class ProfileComponent extends React.Component {
                         </div>
                         <div className='row'>
                             <div className='col-2'>
-                                <h4 className='mb-0 py-1'>Members</h4>
+                                <h4 className='mb-0 py-1'><strong>Members</strong></h4>
                             </div>
                             <div className='col'>
-                                <h4 className='mb-0 py-1'>1078</h4>
+                                <h4 className='mb-0 py-1'>1.078</h4>
                             </div>
                         </div>
                         <div className='row'>
                             <div className='col-2'>
-                                <h4 className='mb-0 py-1'>Organizers</h4>
+                                <h4 className='mb-0 py-1'><b>Organizers</b></h4>
                             </div>
                             <div className='col'>
-                                <h4 className='mb-0 py-1'>Adhy Wardana</h4>
+                                <h4 className='mb-0 py-1'>Minangkara Rengga</h4>
                             </div>
                         </div>
                         <div className='row py-1'>
                             <div className='col-2 px-4'>
                                 <Row>
-                                    <Button variant="secondary">Join Us</Button>
+                                    <Button variant="success"><strong>Join Us</strong></Button>
                                 </Row>
                             </div>
                         </div>

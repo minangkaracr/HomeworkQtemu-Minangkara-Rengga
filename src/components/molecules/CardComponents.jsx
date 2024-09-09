@@ -13,8 +13,8 @@ class CardComponent extends React.Component {
                 <Card.Body>
                     <CardTittle title={this.props.title}/>
                     <CardText desc={this.props.desc}/>
-                    <CardSub countPeople={this.props.countPeople}/>
-                    <Button variant="secondary">View</Button>
+                    <CardSub sub={this.props.sub}/>
+                    <Button variant="success">View</Button>
                 </Card.Body>
             </Card>
             </>

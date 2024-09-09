@@ -1,6 +1,6 @@
 import React from 'react'
 import ProfileComponent from './molecules/ProfileComponents';
-import InfoComponent from './molecules/InfoComponents';
+import InfoComponent from './oganisms/InfoComponents';
 import MemberComponent from './molecules/MemberComponents';
 import MeetupComponent from './oganisms/MeetUpComponents';
 
