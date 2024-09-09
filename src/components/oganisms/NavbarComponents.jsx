@@ -1,7 +1,8 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import NavBrand from "../molecules/Nav/NavBrand";
+import NavLink from "../molecules/Nav/NavLink";
 
 
 class NavbarComponents extends React.Component {
@@ -9,12 +10,14 @@ class NavbarComponents extends React.Component {
         return (
             <Navbar bg="dark" data-bs-theme="dark">
                 <Container>
-                <Navbar.Brand href="#home"><strong>QTemu</strong></Navbar.Brand>
-                <Nav className="me-auto">
-                    <Nav.Link href="#home">Create Meetup</Nav.Link>
-                    <Nav.Link href="#features">Explore</Nav.Link>
-                    <Nav.Link href="#pricing">Login</Nav.Link>
-                </Nav>
+                    <div className="col-1">
+                        <NavBrand
+                            title="QTemu"
+                        />
+                    </div>
+                    <div className="col-11">
+                        <NavLink/>
+                    </div>
                 </Container>
             </Navbar>
         );

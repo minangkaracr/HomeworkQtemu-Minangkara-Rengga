@@ -1,6 +1,9 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import CardTittle from '../atoms/Card/CardTitle';
+import CardText from '../atoms/Card/CardBody';
+import CardSub from '../atoms/Card/CardSub';
 
 class CardComponent extends React.Component {
     render() { 
@@ -8,11 +11,9 @@ class CardComponent extends React.Component {
             <>
             <Card style={{ width: '18rem' }} className='mx-2'>
                 <Card.Body>
-                    <Card.Title>27 November 2017</Card.Title>
-                    <Card.Text>
-                        #39 JakartaJS April Meetup with BRI
-                    </Card.Text>
-                    <Card.Subtitle className="mb-2 text-muted"><strong>132 </strong>went</Card.Subtitle>
+                    <CardTittle title={this.props.title}/>
+                    <CardText desc={this.props.desc}/>
+                    <CardSub countPeople={this.props.countPeople}/>
                     <Button variant="secondary">View</Button>
                 </Card.Body>
             </Card>
